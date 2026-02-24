@@ -18,7 +18,7 @@ The objective is to find and click numbers 1 through 25 in ascending order as qu
 * **JavaScript (ES6):** Logic for shuffling, timer synchronization, and `localStorage` integration for personal bests.
 
 ## 🕹️ Live Demo
-[Check out your hosted trainer here!](https://geosteam36.github.io/schulte-table-trainer/)
+[Check out your hosted trainer here!](https://geosteam36.github.io/Schulte-Table-Demo-/)
 
 ## 🛠️ Installation & Setup
 1. Clone the repository:
