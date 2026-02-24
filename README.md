@@ -1,5 +1,8 @@
 # 🧠 Schulte Table: Peripheral Vision Trainer
 
+![Schulte Table Dashboard Preview](Schulte-preview.png)
+
+A high-performance cognitive training tool designed to improve peripheral vision...
 A high-performance cognitive training tool designed to improve peripheral vision, attention span, and reading speed. 
 
 ## 🎯 How It Works
