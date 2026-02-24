@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schulte Table | Dashboard Trainer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <aside class="side-panel">
+            <header>
+                <h1>SCHULTE<br>TABLE</h1>
+                <div class="instructions">
+                    <p>Focus on the center blue dot.</p>
+                    <p>Use peripheral vision to find numbers 1-25 in order.</p>
+                </div>
+            </header>
+
+            <div class="stats-group">
+                <div class="stat-box">
+                    <label>TARGET</label>
+                    <span id="target-number">1</span>
+                </div>
+                <div class="stat-box">
+                    <label>ELAPSED TIME</label>
+                    <span id="timer">0.00</span>s
+                </div>
+                <div class="stat-box accent">
+                    <label>FOCUS BONUS</label>
+                    +<span id="focus-bonus">0</span>ms
+                </div>
+            </div>
+
+            <div class="footer-controls">
+                <button id="start-btn" onclick="initGame()">START NEW SESSION</button>
+                <div id="best-score">Personal Best: --</div>
+            </div>
+        </aside>
+
+        <main class="game-area">
+            <div id="grid-container" class="grid">
+                <div id="center-dot" class="center-dot"></div>
+                
+                <div id="result-overlay" class="result-overlay">
+                    <div class="result-content">
+                        <h2>SESSION COMPLETE</h2>
+                        <div class="final-stats">
+                            <div class="stat-line">FINAL TIME: <span id="final-time">0.00</span>s</div>
+                            <div class="stat-line">FOCUS BONUS: <span id="final-bonus">0</span>ms</div>
+                            <hr>
+                            <div class="stat-line personal-record">BEST: <span id="overlay-best">--</span>s</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
